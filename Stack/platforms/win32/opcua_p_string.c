@@ -68,9 +68,9 @@ OpcUa_StatusCode OPCUA_DLLCALL OpcUa_P_String_strncpy(    OpcUa_StringA   a_strD
         return OpcUa_Bad;
     }
 
-    if(uiDestSize > uiLength)
+    if(a_uiDestSize > a_uiLength)
     {
-        strDestination[uiLength] = '\0';
+        a_strDestination[a_uiLength] = '\0';
     }
 #endif /* OPCUA_USE_SAFE_FUNCTIONS */
 
