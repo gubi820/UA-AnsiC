@@ -340,7 +340,7 @@ OpcUa_FinishErrorHandling;
 
 
 /*============================================================================
- * OpcUa_Endpoint_OnNotify
+ * OpcUa_Endpoint_OnSecureChannelEvent
  *==========================================================================*/
 static
 OpcUa_StatusCode OpcUa_Endpoint_OnSecureChannelEvent(   OpcUa_UInt32                            a_uSecureChannelId,
